@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css">
     <div class="jumbotron jumbotron-fluid" style="background-image: linear-gradient(to right, lightblue,white)">
             <div class="container">
               <h1 class="display-4">Rock,Paper or Scissors ?</h1>
@@ -35,9 +36,9 @@
                         <p>Rock, Paper or Scissors ?</p>
                       </div>
                       <div class="modal-footer">
-                        <button id="userchoice" type="button" class="btn btn-default" >Rock</button>
-                        <button  id="userchoice1" type="button" class="btn btn-default">Paper</button>  
-                        <button id="userchoice2"type="button" class="btn btn-default" >Scissors</button>
+                        <button id="userchoice" type="button" class="btn btn-default" ><img src="https://phosphorusfive.files.wordpress.com/2017/08/rock.png" height="50px" width="50px" >Rock</button>
+                        <button  id="userchoice1" type="button" class="btn btn-default"><img src="https://vignette.wikia.nocookie.net/2007scape/images/f/f9/Armadyl_page_detail.png/revision/latest?cb=20160529103005" height="50px" width="50px"> Paper</button>  
+                        <button id="userchoice2"type="button" class="btn btn-default" ><img src="https://studio.code.org/v3/assets/nFO_7eJY3ePg5rsOOXXwrw/scissors.png" height="50px" width="50px"> Scissors</button>
                     </div>
                    </div>
 
@@ -51,8 +52,8 @@
             <img src="https://www.portablepress.com/wp-content/uploads/2017/11/Rock-Paper-Scissors.jpg"  class="card-img-top" height="800" width="800">
             <div class="card-body">
               <h1 class="card-title" id="winner"></h1>
-              <p class="card-text" id="score"></p>
-              <p  class= "card-text" id="score2"></p>
+              <h5 class="card-text" style="font-style:italic" id="score"></h5>
+              <h5  class= "card-text" style="font-style:italic" id="score2"></h5>
               <a href="file:///C:/Users/admin/Projects/javascript/index.html" class="btn btn-primary"><h4>New Name?</h4></a>
             </div>
           </div>
