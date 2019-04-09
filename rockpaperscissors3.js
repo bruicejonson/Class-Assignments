@@ -27,7 +27,7 @@ function playRound(player1hand) {
         if ((player1.hand == "scissors" && player2.hand == "paper") || (player1.hand == "rock" && player2.hand == "scissors") ||
             (player1.hand == "paper" && player2.hand == "rock")) {
             player1.won++;
-            alert(`${player1.name} chose ${player1.hand} and the computer chose ${player2.hand}, ${player1.name} wins`);
+            alert(`${player1.name} chose ${player1.hand} and the computer chose ${player2.hand}`);
             alert(`${player1.name} Wins  !!!`)
             alert(`${player1.name }: ${ player1.won}\n ${player2.name }: ${ player2.won}`);
             winner = (`${player1.name} is the winning !!!`);
@@ -43,8 +43,8 @@ function playRound(player1hand) {
             ${player2.name} is winning !!!`);
 
         };
-        score = (`${player1.name }:${ player1.won}`)
-        score2 = (`${player2.name }: ${ player2.won}`)
+        score = (`${player1.name }:\n${ player1.won}`)
+        score2 = (`${player2.name }:\n${ player2.won}`)
         document.getElementById("winner").innerHTML = winner;
         document.getElementById("score").innerHTML = score;
         document.getElementById("score2").innerHTML = score2;
