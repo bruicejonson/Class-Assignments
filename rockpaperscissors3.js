@@ -30,7 +30,7 @@ function playRound(player1hand) {
             alert(`${player1.name} chose ${player1.hand} and the computer chose ${player2.hand}`);
             alert(`${player1.name} Wins  !!!`)
             alert(`${player1.name }: ${ player1.won}\n ${player2.name }: ${ player2.won}`);
-            winner = (`${player1.name} is the winning !!!`);
+            winner = (`${player1.name} won the last round !!!`);
 
 
 
@@ -40,7 +40,7 @@ function playRound(player1hand) {
             alert('Tony Stark Wins !!!, I mean the computer wins..... you werent playing Tony Stark that would be obsurd');
             alert(`${player1.name }: ${ player1.won}\n ${player2.name }: ${ player2.won}`);
             winner = (`The 
-            ${player2.name} is winning !!!`);
+            ${player2.name} won the last round !!!`);
 
         };
         score = (`${player1.name }:\n${ player1.won}`)
