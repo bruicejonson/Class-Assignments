@@ -68,7 +68,6 @@ if (player1.won === 5) {
 else if (player2.won === 5) {
     console.log(`${player2.name} is the winner of this round !!!`)
 }
-else { round1winner = false }
 if (player1.won === 5) {
     var round1winner = player1
 } else {
