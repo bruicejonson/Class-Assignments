@@ -101,8 +101,8 @@ var button9 = document.getElementById('part9').addEventListener("click", functio
     });
 });
 function myFunction2(){
-        $.get('http://jsonplaceholder.typicode.com/posts/1/comments ', function (comment) {
-         document.getElementById('selected').innerHTML = 'Comments for All Posts' ;
+        $.get('http://jsonplaceholder.typicode.com/comments?postId=1', function (comment) {
+         document.getElementById('selected').innerHTML = 'Comments form Post' ;
         document.getElementById("data").innerHTML = comment.map(function(t){
         return '<br>'+'<h4>'+"User Id:  "+ t.id +'</h4>' +'<br>'+'<br>'+'<h6>'+"Body: " + t.body + '</h6>'
         + '<br>'+ '<button onclick="myFunction3()" id="Return"class="dropbtn rounded-lg" style="float:center">'+'Back To Posts'+'</button>'+'<br>'
