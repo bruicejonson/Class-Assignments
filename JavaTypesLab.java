@@ -87,7 +87,7 @@ public class JavaTypesLab {
         System.out.println(String.format("The total length of the %s is %s.",
                 fullname,
                 fullname.length()));
-        System.out.println(String.format("The String %s having an 'o' is %s.",
+        System.out.println(String.format("The String %s having an 'o' at the position of %s.",
                 fullname,
                 fullname.indexOf("o")));
         System.out.println(String.format("The String %s contains a %s at the 7th position.",
