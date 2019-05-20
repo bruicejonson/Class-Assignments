@@ -92,7 +92,7 @@ public class JavaTypesLab {
                 fullname.indexOf("o")));
         System.out.println(String.format("The String %s contains a %s at the 7th position.",
                 fullname,
-                + fullname.charAt(7)));
+                fullname.charAt(7)));
         System.out.println(String.format("The String %s containing 'son' is %s.",
                 fullname,
                 fullname.contains("son")));
