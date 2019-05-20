@@ -67,18 +67,18 @@ public class JavaTypesLab {
         //part 5 & 6
         Integer g = 55;
         Integer l = Integer.valueOf("1000");
-        if (g.compareTo(l)>0){
+        if (g.compareTo(l) > 0){
             int e = g/2;
-            System.out.println(g + "is a Big Value");
-            System.out.println(e + "is half a Big Value");
+            System.out.println(g + " is a Big Value");
+            System.out.println(e + " is half a Big Value");
         }else{
             int e = g/2;
-            System.out.println(e + "is definitely small");
-            System.out.println( g + "is not a big value");
+            System.out.println(e + " is definitely small");
+            System.out.println( g + " is not a big value");
         }
     }
 
-    // part 7 
+    // part 7
     public static void playwithStrings(){
         String firstName = "Bruice";
         String lastName =  "Jonson";
@@ -93,13 +93,13 @@ public class JavaTypesLab {
         System.out.println(String.format("The String %s contains a %s at the 7th position.",
                 fullname,
                 fullname.charAt(7)));
-        System.out.println(String.format("The String %s containing 'son' is %s.",
+        System.out.println(String.format("The String %s contains 'son' is %s.",
                 fullname,
                 fullname.contains("son")));
         System.out.println(String.format("The last 5 characters in th String %s is %s.",
                 fullname,
                 fullname.substring(8,13)));
-        System.out.println(String.format("The String %s containing '-' or ''' is %s.",
+        System.out.println(String.format("The String %s contains '-' or ''' is %s.",
                 fullname,
                 (fullname.contains("-") || fullname.contains(" ' "))));
 
