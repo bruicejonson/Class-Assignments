@@ -99,7 +99,7 @@ public class JavaTypesLab {
         System.out.println(String.format("The last 5 characters in th String %s is %s.",
                 fullname,
                 fullname.substring(8,13)));
-        System.out.println(String.format("The String %s contains '-' or ''' is %s.",
+        System.out.println(String.format("The String %s contains a - or ' is %s.",
                 fullname,
                 (fullname.contains("-") || fullname.contains(" ' "))));
 
