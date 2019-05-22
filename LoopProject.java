@@ -86,14 +86,19 @@ public class LoopProject {
                 Arrays.sort(win);
             Thread.sleep(1000);
             System.out.println("And the winning lottery numbers are: ");
-            Thread.sleep(2000);
-            System.out.println(String.format("%d, %d, %d, %d, %d",
-                    win[0], win[1], win[2],
-                    win[3], win[4]
-                    ));
+            Thread.sleep(1000);
+            System.out.print(win[0]+ ", ");
+            Thread.sleep(1000);
+            System.out.print(win[1]+ ", ");
+            Thread.sleep(1000);
+            System.out.print(win[2]+ ", ");
+            Thread.sleep(1000);
+            System.out.print(win[3]+ ", ");
+            Thread.sleep(1000);
+            System.out.println(win[4]);
             Thread.sleep(1000);
             System.out.println("Magic ball:");
-            Thread.sleep(2000);
+            Thread.sleep(1000);
             System.out.println(String.format("%d",
                     win[5] ));
             Thread.sleep(1000);
