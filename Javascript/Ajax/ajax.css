@@ -1,0 +1,52 @@
+.card{
+  max-width: 48rem;
+  float: right;
+}
+.jumbotron{
+  background-image: url(http://www.pano1544.com/photo/www.acropolis-entrepreneur-center.com/wp-content/uploads/2015/01/view-18floor-2.jpg);
+  background-size: cover;
+ 
+ 
+}
+body{
+  background-image:linear-gradient( to right,white,lightblue);
+  background-size: cover;
+}
+.dropbtn {
+    background-color:darkgrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: lightblue;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color:white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: lightskyblue;}
+  
+  .show {display: block;}
