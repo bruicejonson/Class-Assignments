@@ -1,0 +1,27 @@
+---------------------------- Jimmy John's ----------------------------
+
+----- 8' Sub Sandwhiches -----       ------ 8' Plain Slims -------
+                               |  |
+Pepe                  $5.50    |  |  Ham & Cheese            $4.25
+BigJohn               $5.50    |  |  Roast Beef              $4.25
+Totally Tuna          $5.50    |  |  Tuna Salad              $4.25
+Vito                  $5.50    |  |  Turkey Breast           $4.25
+Vegetarian            $5.50    |  | Salami,Capicola,Cheese   $4.25
+J.J.B.L.T.            $5.50    |  | Double Provolone         $4.25
+                               |  |
+-------------------------------     ------------------------------
+        ------------ 8' Giant Club Sandwiches --------------
+
+         Gourmet Smoked Ham Club                      $6.95
+         Billy Club                                   $6.95
+         Italian Night Club                           $6.95
+         Hunter's Club                                $6.95
+         Country Club                                 $6.95
+         Beach Club                                   $6.95
+         Gourmet Veggie Club                          $6.95
+         Bootlegger Club                              $6.95
+         Club Tuna                                    $6.95
+         Club Lulu                                    $6.95
+         Ultimate Porker                              $6.95
+       ------------------------------------------------------
+---------------------------------------------------------------------
