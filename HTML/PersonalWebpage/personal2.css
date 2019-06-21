@@ -1,0 +1,14 @@
+body{background-image: url(http://ndamascobvphoto.weebly.com/uploads/1/0/9/2/109215855/bvh-clarissavalenzuela-sunset-7-orig_orig.jpg);
+background-size: cover
+}
+.jumbotron{
+    font-family: cursive;
+}
+h1{color: white;
+font-family: cursive;
+text-shadow: 4px 4px 4px black;}
+.card-body{
+    padding: 10px;
+    box-shadow: 5px 10px black;
+    font-family: cursive;
+}

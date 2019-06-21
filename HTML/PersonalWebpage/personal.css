@@ -1,0 +1,23 @@
+h1{ float: right;
+text-shadow: 4px 4px 4px black;}
+body{background-image: url(https://ih1.redbubble.net/image.470811742.1498/stf,small,600x600-c,0,0,1000,1000.jpg);
+background-size: cover}
+aside{color: black;
+    text-align: left;
+    font-style: bold;
+font-family: cursive}
+section{text-align: left;
+    font-family: cursive;
+    font-style: bold;
+    color: black;}
+article{text-align: right;
+    font-family: cursive;
+    font-style: bold;
+color: black;}
+footer{
+text-align: center;
+position:bottom;}
+.jumbotron {
+    background: url('http://profilerehab.com/facebook_covers/basketball/basketball_cover_2.jpg') no-repeat center
+    ;background-size: cover;
+  }
