@@ -6,8 +6,7 @@
 </head>
 <body>
 <div class="container">
-        <div th:replace="fragments/navbar"></div>
-    <h2 style="font-style: italic; font-family: 'Comic Sans MS'">Users</h2>
+    <div th:replace="fragments/navbar"></div>
     <ul class="nav nav-tabs">
         <li style="background-color: white; opacity: 0.6" role="presentation" th:classappend="${filter == 'all' ? 'active' : '' }">
             <a style="opacity: 1" href="/users">All</a></li>
@@ -16,6 +15,7 @@
         <li style="background-color: white; opacity: 0.6" role="presentation" th:classappend="${filter == 'following' ? 'active' : '' }">
             <a style="opacity: 1" href="/users?filter=following">Following</a></li>
     </ul><br/>
+     <h2 style="font-style: italic; font-family: 'Comic Sans MS'">Users</h2><br>
     <div class="list-group" th:each="user:${users}">
         <a th:href="@{/users/} + ${user.username}" class="list-group-item list-group-item-action" style="border-radius: 10%; opacity: 0.8">
             <div class="row" >
