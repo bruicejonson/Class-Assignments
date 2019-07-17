@@ -1,0 +1,11 @@
+------------- My Bills -------------
+
+[1] Car Note
+[2] Car Insurance
+[3] Health Insurance
+[4] Phone Bill
+[5] Gas
+[6] Food
+[7] Other Bills
+
+-------------------------------------

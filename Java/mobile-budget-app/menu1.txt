@@ -1,0 +1,9 @@
+           To Your Personal Budget !!!!!
+__________________________________________________
+
+-Which Would You Like To Do First ?
+
+[1] My Income
+[2] My Bills
+
+---------------------------------------------------

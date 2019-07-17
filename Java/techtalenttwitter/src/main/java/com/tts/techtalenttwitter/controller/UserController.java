@@ -83,7 +83,7 @@ public class UserController {
                 model.addAttribute("filter", "following");
             }else {
                 users = userService.findAll();
-                model.addAttribute("filter", "all");
+                model.addAttribute("filter", "al");
             }
             model.addAttribute("users",users);
             SetTweetCounts(users,model);
