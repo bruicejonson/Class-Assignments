@@ -5,15 +5,17 @@
     <div th:replace=" fragments/headTag.html"></div>
 </head>
 <body>
-<div class="jumbotron" style="opacity: 0.8">
-    <h1 class="display-4" style="text-align: center; font-family: cursive">Quick'n Notes</h1>
+<div class="jumbotron" style="opacity: 0.8; background-color: dimgrey">
+    <h1 class="display-4" style="text-align: center; font-family: cursive; color: white">Quick'n Notes <img th:src="@{/images/noteslogo.png}" style="width: 100px; height: 100px; box-sizing: border-box; display: inline"></h1>
     <br><br>
-    <p class="lead">This is a simple site to store Quick notes, to insure you never forget anything important.</p>
+    <p class="lead" style="color: white; margin-left: 20px">This is a simple site to store Quick notes, to insure you never forget anything important.</p>
     <hr class="my-4">
-    <p>If you would like to make a new note click the button bellow.</p>
+    <p style="color: white; margin-left: 20px">If you would like to make a new note click the button bellow.</p>
+    <br>
     <form th:action="@{/notes/new}" method="get">
-        <button class="btn btn-sm btn-info btn pull-left " type="Submit">Make a new Note</button>
+        <button class="btn btn-lg btn-info btn pull-right " type="Submit" style="margin-right: 20px">Make a new Note</button>
     </form>
+    <br>
 </div>
 <br>
 <div class="container" style="margin-right: 50px">
@@ -21,13 +23,11 @@
     <div id="Notes" class="jumbotron col-sm-4" style="margin-right: 20px" th:each="note:${noteList}">
         <div>
             <h3 class="mb-1"><span th:text="${note.title}"></span></h3>
-            <small><span th:utext="${note.message}"></span></small>
+            <br>
+            <small><span th:utext="'- '+ ${note.message}"></span></small>
         </div>
         <br>
-        <div class="col col-sm-6 col pull-right" style="margin-top: 20px; margin-bottom: 20px">
-            <h6><small th:text="${'Created: '+ note.date}"></small></h6>
-        </div>
-        <div class="footer">
+        <div class="footer" style="margin-top: 35px">
         <div class="col col-sm-8">
             <form th:action="@{|/notes/${note.id}|}" method="get">
                 <button class="btn btn-sm btn-warning btn pull-left " type="Submit">Edit Note</button>
@@ -40,11 +40,23 @@
                 <button class="btn btn-sm btn-danger btn pull-right " type="Submit">Delete Note</button>
             </form>
         </div>
+            <br><br>
+            <div class="col col-sm-6 col pull-right" style="margin-top: 20px; margin-bottom: 20px">
+                <h6><small th:text="${'Created: '+ note.date}"></small></h6>
+            </div>
         </div>
     </div>
     <div th:if="${#lists.isEmpty(noteList)}">
         <h3 style="color: white">No Notes have been created yet</h3>
     </div>
+</div>
+<div class="card" style=" background-color: dimgrey; opacity: 0.8; bottom: 0; width: 100%; margin-top: 100px">
+        <div class="blockquote mb-0" style="text-align: center">
+            <br>
+            <h3 style="color: white">This site was designed by Bruice Jonson II.</h3>
+            <footer class="blockquote-footer" style="color: white">Using <cite title="Source Title" style="color: white">BootStrap,Spring Boot,Thymeleaf,etc.</cite></footer>
+            <br>
+        </div>
 </div>
 </body>
 </html>

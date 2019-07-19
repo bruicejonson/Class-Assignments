@@ -7,9 +7,9 @@
 <body>
 <br><br><br><br><br><br>
 <div class="container">
-    <div th:if="${successMessage == null}" class="jumbotron col-md-8 col-md-offset-2" style="opacity: 0.8">
+    <div th:if="${successMessage == null}" class="jumbotron col-md-8 col-md-offset-2" style="opacity: 0.8; background-color: dimgrey">
         <form th:action="@{/notes}" th:object="${note}" method="post" autocomplete="on">
-            <h3 style="text-align: center; font-family: cursive">New Note</h3>
+            <h3 style="text-align: center; font-family: cursive; color: white">New Note</h3>
             <br>
             <div class="form-group">
                 <textarea rows="1" th:field="*{title}" placeholder="What's the title?" class="form-control"></textarea>
