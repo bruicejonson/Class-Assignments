@@ -13,7 +13,7 @@
     <p style="color: white; margin-left: 20px">If you would like to make a new note click the button bellow.</p>
     <br>
     <form th:action="@{/notes/new}" method="get">
-        <button class="btn btn-lg btn-info btn pull-right " type="Submit" style="margin-right: 20px">Make a new Note</button>
+        <button class="btn btn-lg btn-info btn pull-right " type="Submit" style="margin-right: 20px"><i class="fas fa-plus fa-lg"></i></button>
     </form>
     <br>
 </div>
@@ -30,14 +30,14 @@
         <div class="footer" style="margin-top: 35px">
         <div class="col col-sm-8">
             <form th:action="@{|/notes/${note.id}|}" method="get">
-                <button class="btn btn-sm btn-warning btn pull-left " type="Submit">Edit Note</button>
+                <button class="btn btn-sm btn-warning btn pull-left " type="Submit"><i class="fas fa-edit fa-lg"></i></button>
             </form>
         </div>
         <div class="col col-sm-4">
             <form th:action="@{/notes}" method="post">
                 <input type="hidden" name="_method" value="DELETE" />
                 <input type="hidden" name="id" th:value="${note.id}" />
-                <button class="btn btn-sm btn-danger btn pull-right " type="Submit">Delete Note</button>
+                <button class="btn btn-sm btn-danger btn pull-right " type="Submit"><i class="fas fa-trash fa-lg"></i></button>
             </form>
         </div>
             <br><br>
